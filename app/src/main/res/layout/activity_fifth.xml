@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A00BCD4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".fifth">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Welcome to "
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sindhudurga"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. sindudurga Fort"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ca"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Sindhudurg Fort is a fort that occupies an islet in the Arabian Sea, just off the coast of Maharashtra in Western India. The fortress lies on the shore of Malvan town of Sindhudurg District in the Konkan region of Maharashtra, 450 kilometres south of Mumbai. It is a protected monument."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Scuba diving"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/cb"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Sindhudurg fort in Malvan is one of the few places where scuba diving can be done in India. Due to its relatively clear water, it serves as a perfect spot for Scuba diving."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Rock Garden"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/cc"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="The Rock garden is situated near the Arase Mahal, on the rocky shore of Malvan. It is a beautifully built garden overlooking the Chivla beach."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Rameshwar Temole"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/dd"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Rameshwar Temple is located in Achara village of Malvan. Shri Rameshwar is the residing deity of the village. The temple has a huge courtyard and a self immersed Shivalingam in the sanctum."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Snoerekeling"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/de"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Snorkeling to see coral reefs is another popular activity to do here. On the outer side of the fort walls, one can see wonderful live coral reefs and marine life while snorkeling."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Tsunami Island"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/df"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Tsunami Island is the adventure hub in Malvan - a paradise for adventure buffs and water babies and is famous for a wide variety of water sports including jet skiing, banana boat, kayaking and bumper boats. The sand found on the island is said to be magnetic and possesses the ability to cure joint ailments when massaged on the affected parts of the body"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Malvan"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/dg"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Malvan is famous for it's sea-food dishes. You can buy Malvani Masala to make these dishes at home. You can also find products of Mango, Kokum, Cashews."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Shri Wageshwar Temple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/dh"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Shri Wageshwar Temple is dedicated to Lord Shiva. According to a local legend, a mariner found a Shivalinga while angling. A few days later, the area where the Shivalinga was found was raised and the land was exposed. The locals thus decided to build a temple and preserve the ecology of the region which often had tigers visiting. Though several tigers were spotted, they never attacked the humans. Hence, the name Wageshwar Temple"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Malvan Marine Sanctury"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/di"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="The only marine sanctuary in the state, Malvan Marine Sanctuary was established in 1987 to preserve this biologically rich coastal region. The core zone of the sanctuary expands over an area of 27 square kilometres and offers an unexploited environment for marine flora and fauna including coral, Pearl oysters, seaweed, molluscs and over 30 species of fish"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="10. Talshil Tondavali Beach"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/dj"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Talashil Tondavali Beach is one of the beautiful beaches in the country, still left quite unexploited. The long stretch of golden sand lined with coconut trees and the gentle glistening waves make it a perfect beach destination for those wanting to avoid the commercialised tourist attractions and are looking for a tranquil escape."
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

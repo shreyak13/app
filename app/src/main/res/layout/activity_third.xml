@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2A00BCD4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".third">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Welcome to "
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="RAIGAD"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Imagicaa "
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ab"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Imagica Theme Park is India's first and only International standard Theme Park, offering fun, action, entertainment, dining and shopping at a single location. Imagica Theme park is no ordinary theme park. There's nothing of this scale, or anything close to it in India and the Subcontinent. Where others have rides, Imagica theme park is driven by a whole world of fantastical themes to bring Indian families' experiences that they have never had before. No expense has been spared to bring in world class international designers, the best architectural elements and the most exciting novel attractions to rival any park in the world."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2.Nangaon Beach"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ac"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="It's clean and good water sports. Nice veg and sea food available near by.
+
+We explored two entries to the beach, one has car parking area and sport and eatery near by."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Raigad Fort"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ad"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Raigad is a hill fort situated in Mahad, Raigad district of Maharashtra, India. It is one of the strongest fortresses on the Deccan Plateau.[1]
+
+Many constructions and structures on Raigad were built by Shivaji when he made it his capital in 1674 upon being crowned the king of the Maratha kingdom, which later developed into the Maratha Empire, eventually covering much of western and central India.[2] In 1765, the fort was the location of an armed campaign by the British East India Company. Finally, on 9 May 1818, the fort was looted and destroyed by the British."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Alibaug Beach"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ag"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Alibaug is a coastal town in Raigad, Maharashtra. Its beaches are very popular and Alibaug is a popular getaway from Mumbai since it’s located just about 100 kms from Mumbai. Alibaug is well-connected with Mumbai by road, rail and ferry."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Charlotte Lake"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/af"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Charlotte Lake is the second largest freshwater lake in the Chilcotin area of British Columbia, Canada. It is situated southwest of Nimpo Lake. BC Parks maintains a small camp site and boat launch on the southeast end of the lake."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Luaisa Point"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ad"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Lousia point is the best place to see majestic western ghat. Steep hills create an unique view. One can go on the top of an isolated rock to see below l, the scene is breath taking. But Louisa is the farthest place in the trail, around 4.5 km from market."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Neral Matheran Toy Train"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ah"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Toy train for kids and adults to enjoy Nowadays toy train trip is shortened to 20 minutes. Train starts from Aman Lodge and ends at Matheran. Station at Matheran is just opposite to Rangoli Retreat hotel."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Kankeshwar Temple"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/aj"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Shree Kshetra Kanakeshwar( श्री क्षेत्र कनकेश्वर ), on the Konkan coast near Alibag, is a popular place, famous for its cool climate and the old temple of Shiva. The temple is situated on a small hill near the village of Mapgaon and village Zirad which is almost 12 km and 15 km from Alibag respectively. The hill is almost 5000 feet high and one has to climb 650 steps to reach the temple."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Kolaba Fort"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/al"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="Kolaba Fort (sometimes Kulaba Fort or Alibag Fort) is an old military fortification in India. It is situated in the sea at a distance of 1–2 km from the shores of Alibag, 35 km south of Mumbai, in the Konkan region of Maharashtra, India. It is a popular tourist destination and a protected monument."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="10. Imagica ater Park"
+                android:textColor="?android:attr/colorEdgeEffect"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:visibility="visible"
+                app:srcCompat="@drawable/ak"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#25951717"
+                android:text="magicaa is a 130-acre theme park in Khopoli, India. It is owned by Imagicaaworld Entertainment Ltd. The park has an estimated daily capacity of 15,000 visitors. To date, the park has hosted over 5.2 million visitors. It comprises three parks: Theme Park, Water Park and Snow Park."
+                android:textColor="?android:attr/colorActivatedHighlight"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

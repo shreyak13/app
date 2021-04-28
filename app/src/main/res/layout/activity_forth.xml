@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="#2A00BCD4"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".forth">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#612C2C"
+        android:text="Welcome to "
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:shadowColor="#612C2C"
+        android:text="RATNAGIRI"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1. Jaigad Fort"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/ba"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Jaigad Fort, also known as the Fort of Victory, is a 16th-century fort. The remains of the fort stand steady on a cliff overlooking the Jaigad creek where River Shastri enters the vast and mesmerising Arabian Sea. The stunning fort is one of the most famous places to visit in Ratnagiri."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2. Ganpati Temple"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bb"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="A 400-year-old Ganesha temple, Swayambhu is built of pule which is nothing but white sand and is believed to be a self-created monolith of Lord Ganesha, allegedly discovered 1600 years ago.
+
+You can hear the rhythmic beats coming from the temple early in the morning and evenings when the idol is being dressed. The temple attracts a lot of visitors especially during the Hindu festival of Diwali which typically falls in the month of October or November.
+
+"
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3. Ganapatupule Beach"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bc"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="The Ganpatipule Beach is a spectacular and stunning beach that is located on the Konkan coastline in the Ratnagiri District of Maharashtra in southern India. This pristine beauty is also famous for the 400-year-old Ganesha Temple that can be found here, the idol of which is said to have been self-created and was discovered over 1600 years ago. The coastline of the Ganpatipule Beach is no doubt spectacular and mesmerizing, and is home to a variety of exquisite flora, which includes dense coconut trees and mangroves."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4. Jaigad Lighthouse"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bd"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="The Jaigad Lighthouse is situated in one of the bastion on the western edge of the Jaigad Fort. This impressive lighthouse offers breathtaking panoramic view of the area as it is situated on top of a hill."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5. Thibaw Point"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/be"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Situated at the hem of the hill, the Thibaw point has a Thibaw palace built as the exile of the king of Burma(Myanmar). It provides a picturesque view of the sunset at Arabian sea and is a centre of attraction for picnickers."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="6. Pawas"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bf"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="20 km away from the town of Ratnagiri is Pawas, a place where Swarupanand Swami took his samadhi. Affectionately known as Appa or Rambhau, Swami's original name was Ramchandra. Born on 15th December 1903, Swami undertook self-immolation at Pawas and also resided here for for 40 years before that. "
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="7. Pandhre Beach"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bg"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Pandre beach is a long stretch of white sand and therefore known as 'White beach.' It is a lustrous beach with beautiful palm groves in the backdrop and crystal clear water to dip in. It is a ethereal sight to be around."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="8. Malgund"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bh"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Malgund is the native village of the famous Marathi poet, Kavi Keshavsoot. The poet's house, which is now converted into a student's hostel, is open for visits. The village also houses a memorial to the poet, built by the Marathi Sahitya Parishad."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9. Ratndurga Fort "
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bi"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Surrounded by Arabian sea on three sides, Ratnadurg fort is a structure in a form of horseshoe as wide as 1000 meters and as long as 1300 meters. It is spread over 120 acres and was once a strong hold of the Maratha empire later to be occupied by Mughals.
+
+It gives you a splendid view of the sunset and Arabian sea with the shore waves screeching in your ears making it a memorable trip far from the city hustle."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="10. Velneshwar"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:layout_marginTop="10dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/bj"
+                tools:visibility="visible" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#25951717"
+                android:text="Located in the Ratnagiri district of Maharashtra, Velneshwar is a village south of the Guhagar town. Velneshwar is well known for the temple of Lord Shiva and also has a beautiful crescent-shaped beach that is clean, unspoilt and ideal for swimming. Velneshwar gets much of its limelight during the month of March, when the Maha Shivratri Festival is held here, as a tribute to Lord Shiva. If you are seeking an ideal water point where you can relish the beauty of nature while swimming and sunbathing, then the Velneshwar beach in Maharashtra is the perfect place for you."
+                android:textColor="?android:attr/colorFocusedHighlight"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
